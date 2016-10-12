@@ -1,5 +1,4 @@
 import scss from './stylesheets/app.scss'
-
 import Vue from 'vue'
 import Resource from 'vue-resource'
 import Router from 'vue-router'
@@ -43,4 +42,4 @@ router.redirect({
 })
 
 // Start up our app
-router.start(App, '#app')
+router.start(App, 'body')

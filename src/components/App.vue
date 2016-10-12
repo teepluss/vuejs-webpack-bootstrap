@@ -3,7 +3,7 @@
 
   export default {
     name: "App",
-
+    replace: false,
     components: {
       Navbar
     }
